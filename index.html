@@ -55,8 +55,16 @@
                 </div>
 
                 <button class="btn" id="show-popup">Свяжитесь с нами</button>
+                
                 <div class="popup" id="popup-overlay">
-                    <div class="popup-content"></div>
+                    <div class="popup-content">
+                        <button class="btncl">&times;</button>
+                        <h3>Обратная связь</h3>
+                        <form id="popup-form">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <button type="submit" class="btn">Отправить</button>
+                        </form>
+                    </div>
                 </div>
             </section>
 
@@ -294,5 +302,6 @@
                 </form>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
